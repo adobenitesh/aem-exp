@@ -146,6 +146,7 @@ async function loadEager(doc) {
         resolve();
       });
     });
+    document.body.classList.add('appear');
   }
 
   try {
